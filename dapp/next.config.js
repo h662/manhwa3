@@ -4,7 +4,6 @@ const nextConfig = {
     config.resolve.fallback = {
       encoding: false,
       bufferutil: false,
-
       "utf-8-validate": false,
     };
 
