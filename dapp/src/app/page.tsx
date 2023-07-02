@@ -30,7 +30,7 @@ const Home: NextPage = () => {
   const onClickRegist = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/user",
+        `${process.env.NEXT_PUBLIC_API_URL}/api/user`,
         {
           account,
         },
